@@ -1,0 +1,93 @@
+.right1{
+    height: 700px;
+    width: 900px;
+    
+    margin-left: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.Upper_func{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Upper_search{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #C53C27;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.Upper_prod{
+    border-radius: 10px;
+    border:none;
+    background-color: #C53C27;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.prod_ann{
+    display: flex;
+    margin-top: 10px;
+}
+
+.prod_ann > h6 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.prod_ann > span{
+    margin-left: 10px;
+}
+
+.Inventory_grid{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 260px);
+    grid-gap: 20px;
+}
+
+.Inventory_card{
+    width: 250px;
+    height: 280px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius:10px 10px 0 0;
+}
+
+.Inventory_card > img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Inventory_d{
+    font-weight: 200;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Inventory_o{
+    font-weight: 100;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Inventory_title{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Inventory_card:hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}

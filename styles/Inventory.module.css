@@ -1,0 +1,73 @@
+.titles{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Right_side_inventory{
+    height: 600px;
+    width: 900px;
+    
+    margin-left: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.line{
+    border: 1px solid black;
+    width: 800px;
+    margin-left: 20px;
+}
+
+.to_store{
+    display: block;
+}
+
+.identifier{
+    margin-top: 5px;
+    margin-left: 20px;
+
+}
+.identifier_desc{
+    margin-top: 10px;
+}
+
+.identifier_desc > input{
+    margin-left: 10px;
+    border: 0.5px solid black;
+}
+
+.description{
+    margin-top: 5px;
+    margin-left: 20px;
+    
+    
+}
+
+.description_ar > textarea{
+    margin-left: 10px;
+    width: 500px;
+    height: 200px;
+}
+
+.photos_upload{
+    margin-left: 20px;
+}
+
+._add_p{
+    margin-top: 40px;
+    margin-left: 700px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #C53C27;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+._add_p:hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}

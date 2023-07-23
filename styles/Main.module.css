@@ -1,0 +1,40 @@
+.Main_Container{
+    margin-top:50px;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.Main_Container > h4{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.Main_Container > button{
+    margin: auto;
+    padding: 10px;
+    border: 0.5px solid #C53C27;
+    color: #C53C27;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 200px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.Main_Container > button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #C53C27;
+}
+
+
+.Main_Grid{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin-left: 200px;
+    
+}

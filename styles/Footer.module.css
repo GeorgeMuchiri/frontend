@@ -1,0 +1,54 @@
+.Footer{
+    height: 300px;
+    background-color: #9E482C;
+}
+
+.Links{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin-left: 200px;
+    
+}
+
+.Need_Help, .Partner, .About, .International{
+    display: block;
+    margin-top: 20px;
+    
+}
+
+.Need_Help, .Partner, .About, .International > h4{
+    color: white;
+}
+
+.Sublink{
+    text-decoration: none;
+    color: white;
+}
+
+.Sublink:hover{
+    color: #2E120E;
+}
+
+.Socials_img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+ .Footer > p{
+    color: white;
+    margin-left: 570px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.Socials{
+   
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.Repeat_Grid{
+    width: 100vw;
+    height: 50px;
+}

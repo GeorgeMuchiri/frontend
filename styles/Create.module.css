@@ -1,0 +1,98 @@
+.Fancy_Text{
+    width: 700px;
+    background-color: #39130E;
+    height: 100vh;
+}
+
+.D_Logo{
+    width: 400px;
+    height: 200px;
+    margin: 0px 90px auto;
+}
+
+.Welcome{
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.A_Basket{
+    margin-left: 40px;
+    font-size: 30px;
+    color: #9E482C;
+}
+
+.downRibbon{
+    width: 700px;
+    margin-top:290px;
+    height: 40px;
+}
+
+.Two_Div{
+    display: flex;
+}
+
+.Input_Area{
+    margin: 20px 20px auto;
+    
+}
+
+.I_Elements{
+    display: block;
+    margin: 20px;
+}
+
+.Cont_Area{
+    display: flex;
+    margin-top: 80px;
+ 
+    justify-items: space-evenly;
+}
+
+.input{
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-bottom: 0.5px solid grey;
+    font-size: 14px;
+}
+
+.label{
+    display: hidden;
+}
+
+.Announce{
+    color:#C53C27;
+    margin-left: 20px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.Checkbox{
+    margin-top: 60px;
+    margin-left:20px;
+    display: flex;
+}
+
+.Check{
+    margin: 7px;
+}
+
+.Create_Button{
+    margin: 10px 20px auto ;
+    padding: 10px;
+    background-color: #C53C27;
+    color: white;
+    border:none;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.Create_Button:hover{
+    transform: scale(0.9);
+    transition: 0.5s all ease;
+}

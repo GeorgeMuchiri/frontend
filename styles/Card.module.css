@@ -1,0 +1,14 @@
+
+
+
+
+.outer{
+    background-color: rgb(162, 153, 153);
+    height: 50px;
+    width: 150px;
+}
+
+.containercard{
+    display: flex;
+    margin-left: 20px;
+}

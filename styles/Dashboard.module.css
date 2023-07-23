@@ -1,0 +1,316 @@
+._dash{
+    
+    margin: 10px 200px 30px auto;
+    width: 1100px;
+    height: 700px;
+    
+    display: flex;
+}
+
+.Left_Dash{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    width: 200px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.Right_Dash{
+    height: 600px;
+    width: 1100px;
+    
+    margin-left: 30px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.Left_Profile{
+    height: 150px;
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 15px 15px 0 0;
+}
+
+.Left_Profile > img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 50px auto;
+    border-radius: 50px;
+}
+
+.Left_Profile > h5{
+    text-align: center;
+}
+
+.Log_out{
+    display: flex;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.Log_out > img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin-left: 10px;
+    
+}
+
+.Log_out > p{
+    padding: 5px;
+}
+
+.Log_out:hover{
+    color: #C53C27;
+}
+
+.Right_Dash{
+  /* display: flex;   */
+}
+
+.Welcome_Left{
+    width: 450px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    
+}
+
+.Welcome_Left > h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Welcome_Left > p {
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+.Welcome_Right{
+    width: 390px;
+    height: 100%;
+    
+    margin-left: 30px;
+}
+
+.Announcement{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+    height: 150px;
+    border: 0.5px solid #D08C94;
+    border-radius: 15px;
+    background-color: #D08C94;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Announcement > img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.an_text{
+    color: white;
+    margin-top: 10px;
+}
+
+.an_text > p{
+    font-weight: 200;
+}
+
+.P_grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 185px);
+}
+
+._grid_item{
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+._grid_item > h5{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 10px auto;
+}
+
+._grid_item > p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.Recent_Sold{
+    margin: 20px 10px auto;
+}
+
+.R_product{
+    display: flex;
+    
+}
+
+
+
+.R_product_desc_h5{
+    font-size: 16px;
+}
+
+.R_product_desc_p{
+    font-size: 12px;
+}
+
+.R_product_desc{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.earned {
+    width: 160px;
+    height: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    
+    border-radius: 50px;
+}
+
+.earned > p{
+    padding: 10px;
+}
+
+.Welcome_Right > h4{
+    margin-top: 10px;
+}
+
+.Welcome_Right > p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.client_prof1{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+}
+
+.client_prof > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.client_prof > p{
+    font-size: 10px;
+}
+
+.chart{
+    margin-top: 20px;
+}
+
+.chart_perf{
+    margin-top: 20px;
+    height: 90px;
+    width: 300px;
+    border: 0.5px solid grey;
+    border-radius: 20px;
+}
+
+.chart_perf > h6{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.bar{
+    width: 250px;
+    height: px;
+    border: 2px solid grey;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+}
+
+.card{
+    
+    
+    
+    display: block;
+}
+
+.containercard{
+    margin-top: 20px;
+    margin-left: 20px;
+    /* border: 1px solid salmon; */
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+}
+
+.addProd{
+    border: 1px solid #C53C27;
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #C53C27;
+}
+
+.addProd:hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    color: #C53C27;
+    background-color: white;
+    border:1px solid #C53C27;
+    outline: none;
+}
+
+
+
+.additems{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.inputarea{
+    display: block;
+}
+
+.labels{
+    margin-left: 20px;
+    display: block;
+}
+
+.inputsname{
+    margin-left: 20px;
+    margin-top: auto;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.inputsdesc{
+    margin-left: 20px;
+    height: 100px;
+}
+.inputsprice{
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+}
+

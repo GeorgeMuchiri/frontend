@@ -1,0 +1,99 @@
+.Main_Cont{
+    display: flex;
+    margin: 30px 100px auto;
+    justify-content: space-around;
+    height: 700px;
+}
+
+.Right_side{
+    width: 400px;
+    height: 550px;
+    background-color: #9E482C;
+    position: relative;
+}
+
+.Left_side{
+    /* background-color: aqua; */
+    width: 700px;
+}
+.downRibbon{
+    
+    width: 400px;
+    margin-top: 300px;
+}
+
+.cont_shop{
+    float: right;
+    
+}
+
+.cont_shop_link{
+   text-decoration: none;
+   color: black;
+}
+
+.cont_shop_link:hover{ color: #C53C27;}
+
+.cart_title{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.cart_prod{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
+
+.cart_prod > img{
+    width: 70px;
+    height: 70px;
+    border: 0.5px solid black;
+}
+
+.span_{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.span__{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.upperRibbon{
+    width: 400px;
+}
+
+.Right_side > h3{
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.Right_side > h2{
+    color: white;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.Right_side > button{
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.Right_side > button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s all ease;
+}

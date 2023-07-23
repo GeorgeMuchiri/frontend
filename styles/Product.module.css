@@ -1,0 +1,157 @@
+.Description_Container{
+    margin-top: 10px;
+    width: 1100px;
+    margin-left: 200px;
+    height: 500px;
+    display: flex;
+}
+
+.Desc_Large{
+    width: 800px;
+    height: 450px;
+    
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    display: flex;
+}
+
+.Desc_Small{
+    width: 200px;
+    height: 400px;
+    
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    margin-left: 50px;
+}
+
+.__img{
+    width: 300px;
+    height: 300px;
+    border: 0.5px solid grey;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.small_img{
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-gap: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.small_img > img{
+    width: 60px;
+    height: 60px;
+}
+
+.More{
+    margin-left: 200px;
+    width: 1100px;
+    height: 250px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.Product_Desc{
+    margin-left: 200px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    margin-top: 50px;
+}
+
+.space{
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+
+.imgDiv{
+    
+    width: 40%;
+    height: 100%;
+}
+
+.prod_desc{
+    width: 60%;
+    height: 100%;
+    
+}
+
+.individual{
+    margin-left: 30px;
+}
+
+.stars{
+    color: #C53C27;
+}
+
+.qty{
+    display: flex;
+}
+
+.spec_color{
+
+}
+
+.size{
+
+}
+
+.price {
+    font-weight: 900;
+    font-size: small;
+}
+
+.figure{
+    font-weight: 900;
+    font-size: 25px;
+    color: #C53C27;
+}
+
+.cart_button{
+    color:#C53C27;
+    width: 200px;
+    height: 40px;
+    font-weight: 900;
+    font-size: 16px;
+    border: 1px solid #C53C27;
+    background-color: white;
+}
+
+.cart_button:hover{
+    cursor: pointer;
+    background-color: #C53C27;
+    color: white;
+}
+
+.qty__{
+    font-weight: 700;
+    margin-left:10px;
+    margin-right: 5px;
+    
+}
+
+.qty__:hover{
+    cursor: pointer;
+}
+
+.qty__opp{
+    font-weight: 700;
+    margin-left:10px;
+}
+
+.qty__opp:hover{
+    cursor: pointer;
+}
+
+.description{
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.description_h4{
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 18px;
+}

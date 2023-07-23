@@ -1,0 +1,175 @@
+.header{
+    height: 130px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    
+}
+.header__one{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+    
+}
+
+.header__logo{
+    
+    width: 100px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.search{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.16);
+    flex:2;
+    /*border: 1px solid #C54C27;*/
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.header__search{
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+    border: none;
+    margin-left:10px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    
+}
+.header__search:focus{
+    outline: none;
+}
+
+.search_icon{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.left_menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+.cart{
+    display: flex;
+    justify-items: center;
+    font-size: 20px;
+    position: relative;
+   
+}
+.cart:hover{
+    color:#C54C27;
+}
+
+.cart span{
+    position: absolute;
+    font-weight: bold;
+    color: red;
+    top: -15px;
+    left: 20px;
+    font-size: 15px;
+}
+
+.cart_name{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    
+}
+.cart_name:hover{
+    color: #C54C27;
+}
+.account{
+    display: flex;
+    justify-items: center;
+    font-size: 20px;
+}
+.account:hover{
+    color: #C54C27;
+}
+.account_name{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    
+}
+.account_name:hover{
+   color:#C54C27;
+    
+}
+
+.header__two{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+}
+
+.categories{
+    margin-left: 200px;
+    display: flex;
+}
+.categories span{
+    margin: auto;
+}
+
+.burger__menu{
+    margin: auto;
+}
+.down_menu{
+    margin: auto;
+}
+
+.categories:hover{
+    color: #C54C27;
+}
+
+.top__searches{
+    display: flex;
+    flex:2;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.top__searches span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link{
+    
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+    color:grey
+}
+
+.addresses{
+    
+    border-left: 0.5px solid grey;
+    align-self: center;
+    margin-right: 80px;
+    
+    
+}
+
+.addresses span{
+    padding: 20px;
+    font-size: 14px;
+    
+}
+
